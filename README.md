@@ -51,3 +51,9 @@ src/
 ├── App.css
 ├── main.jsx
 └── index.css
+
+## Author
+
+Krishna Gupta
+
+- LinkedIn: https://www.linkedin.com/in/krishna-gupta-15b187271
