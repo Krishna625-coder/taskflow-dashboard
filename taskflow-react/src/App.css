@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+.app{
+  min-height:100vh;
+  background:#f4f4f4;
+  color:#222;
+  padding:40px 20px;
+  transition:0.3s;
+}
+
+.dark{
+  background:#121212;
+  color:white;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:25px;
+}
+
+.header h1{
+  font-size:2rem;
+}
+
+.header button{
+  padding:10px 15px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.stats{
+  display:flex;
+  gap:15px;
+  margin-bottom:25px;
+}
+
+.card{
+  flex:1;
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  text-align:center;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.dark .card{
+  background:#1f1f1f;
+}
+
+.card h2{
+  margin-bottom:8px;
+}
+
+.input-section{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+.input-section input{
+  flex:1;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+
+.input-section button{
+  padding:12px 20px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  background:#4caf50;
+  color:white;
+}
+
+.controls{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+.controls input,
+.controls select{
+  flex:1;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:8px;
+}
+
+.task-list{
+  margin-top:20px;
+}
+
+.task-card{
+  background:white;
+  padding:15px;
+  margin-bottom:12px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.dark .task-card{
+  background:#1f1f1f;
+}
+
+.task-card span{
+  cursor:pointer;
+  font-size:16px;
+}
+
+.completed{
+  text-decoration:line-through;
+  opacity:0.6;
+}
+
+.delete-btn{
+  background:#ff4d4d;
+  color:white;
+  border:none;
+  padding:8px 14px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+@media(max-width:768px){
+
+  .stats{
+    flex-direction:column;
+  }
+
+  .input-section{
+    flex-direction:column;
+  }
+
+  .controls{
+    flex-direction:column;
+  }
+}
