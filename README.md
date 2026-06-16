@@ -1,13 +1,10 @@
 # TaskFlow Dashboard
 
 A modern task management dashboard built with React and Vite. Users can add, organize, and track tasks through a clean and responsive interface.
-# TaskFlow Dashboard
-
-A modern task management dashboard built with React and Vite. Users can add, organize, and track tasks through a clean and responsive interface.
 
 ## Preview
 
-![TaskFlow Dashboard](./screenshot.png)
+![TaskFlow Dashboard](./<img width="1366" height="728" alt="taskflow-react - Google Chrome 17-06-2026 03_59_28" src="https://github.com/user-attachments/assets/c5512da6-b9d7-4abe-a540-796e8b0fda2d" />)
 
 ## Features
 
