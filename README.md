@@ -56,4 +56,3 @@ src/
 
 Krishna Gupta
 
-- LinkedIn: https://www.linkedin.com/in/krishna-gupta-15b187271
